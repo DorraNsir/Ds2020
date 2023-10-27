@@ -24,6 +24,9 @@ public class Boutique {
                 System.out.println(tabVet[i].toString());
                 System.out.println("le prix est "+tabVet[i].prixTTC(remise));
             }
+            else {
+                System.out.println("le stock est épuisé");
+            }
         }
     }
 
