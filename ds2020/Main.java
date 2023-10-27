@@ -7,6 +7,7 @@ public class Main {
         v1.setQtStock(10);
         Vetement v2=new Vetement("M200","Manteau","gris",196.900f);
         v2.setQtStock(5);
+        //Diminuez de 5 la quantité du vêtement M200.(un message sera afficher car le stock est epuise)
         v2.setQtStock(0);
         boutique.ajoutVetement(v1);
         boutique.ajoutVetement(v2);
